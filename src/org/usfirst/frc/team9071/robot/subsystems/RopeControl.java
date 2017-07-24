@@ -19,7 +19,13 @@ public class RopeControl extends Subsystem {
     }
     
     public void goup() {
-    	
+    	sc.set(.6);
+    }
+    public void stop() {
+    	sc.stopMotor();
+    }
+    public void down() {
+    	sc.set(-.3);
     }
 }
 
